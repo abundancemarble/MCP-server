@@ -1,0 +1,1 @@
+github-mcp-server --tools get_file_contents --dynamic-toolsets
