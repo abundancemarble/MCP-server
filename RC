@@ -1,0 +1,1 @@
+GITHUB_TOOLS="get_file_contents,issue_read,create_pull_request" ./github-mcp-server
