@@ -1,0 +1,4 @@
+docker run -i --rm \
+  -e GITHUB_PERSONAL_ACCESS_TOKEN=<your-token> \
+  -e GITHUB_READ_ONLY=1 \
+  ghcr.io/github/github-mcp-server
