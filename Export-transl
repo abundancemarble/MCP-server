@@ -1,0 +1,2 @@
+./github-mcp-server --export-translations
+cat github-mcp-server-config.json
