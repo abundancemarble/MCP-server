@@ -1,0 +1,1 @@
+GITHUB_TOOLSETS="repos,issues,pull_requests,actions,code_security" ./github-mcp-server
