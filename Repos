@@ -1,0 +1,1 @@
+github-mcp-server --toolsets repos,issues --tools get_gist
