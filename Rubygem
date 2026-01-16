@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+gem "rails"
+
+source "https://rubygems.pkg.github.com/NAMESPACE" do
+  gem "GEM_NAME"
+end
