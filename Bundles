@@ -1,0 +1,1 @@
+bundle config https://rubygems.pkg.github.com/NAMESPACE USERNAME:TOKEN
