@@ -1,0 +1,1 @@
+gem build GEM_NAME.gemspec
