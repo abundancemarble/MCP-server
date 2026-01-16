@@ -1,0 +1,1 @@
+gem sources --add https://USERNAME:TOKEN@rubygems.pkg.github.com/NAMESPACE/
