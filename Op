@@ -1,0 +1,5 @@
+When code[pc] is OP_I:
+If code[pc + 1] != OP_PUSH1, halt with exceptional failure.
+Let x = code[pc + 2].
+Apply instruction I(x).
+Set pc = pc + 3.
