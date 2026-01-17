@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "MCP SERVER 1": {
+      "command": "VALUE",
+      "args": [ VALUES ],
+      ...
+    },
+    "MCP SERVER 2": {
+      "command": "VALUE",
+      "args": [ VALUES ],
+      ...
+    },
+    ...
+  }
+}
