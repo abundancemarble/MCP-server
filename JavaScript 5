@@ -1,0 +1,16 @@
+  // If you copy and paste this example, you will need to remove the comments prefixed with `//`, which are not valid JSON.
+  {
+    "mcpServers": {
+      "github-mcp-server": {
+        "type": "http",
+        // Remove "/readonly" to enable wider access to all tools.
+        // Then, use the "X-MCP-Toolsets" header to specify which toolsets you'd like to include.
+        // Use the "tools" field to select individual tools from the toolsets.
+        "url": "https://api.githubcopilot.com/mcp/readonly",
+        "tools": ["*"],
+        "headers": {
+          "X-MCP-Toolsets": "repos,issues,users,pull_requests,code_security,secret_protection,actions,web_search"
+        }
+      }
+    }
+  }
