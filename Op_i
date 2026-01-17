@@ -1,0 +1,6 @@
+When code[pc] is OP_I:
+Let x = code[pc + 1].
+If x is not in DOMAIN_I, halt with exceptional failure.
+Let y = DECODE_I(x).
+Apply instruction I(y).
+Set pc = pc + 2.
