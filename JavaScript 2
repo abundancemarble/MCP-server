@@ -1,0 +1,25 @@
+// If you copy and paste this example, you will need to remove the comments prefixed with `//`, which are not valid JSON.
+{
+  "mcpServers": {
+    "notionApi": {
+      "type": "local",
+      "command": "docker",
+      "args": [
+        "run",
+        "--rm",
+        "-i",
+        "-e",
+        // We can use the $NOTION_API_KEY environment variable which is passed to
+        // the server because of the `env` value below.
+        "OPENAPI_MCP_HEADERS={\"Authorization\": \"Bearer $NOTION_API_KEY\", \"Notion-Version\": \"2022-06-28\"}",
+       "mcp/notion"
+      ],
+      "env": {
+        // The value of the `COPILOT_MCP_NOTION_API_KEY` secret will be passed to the
+        // server command as an environment variable called `NOTION_API_KEY`
+        "NOTION_API_KEY": "COPILOT_MCP_NOTION_API_KEY"
+      },
+      "tools": ["*"]
+    }
+  }
+}
