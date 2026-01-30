@@ -1,0 +1,2 @@
+kubectl create ingress -localhost --class=nginx \
+  --rule="faith.localdev.me/*=faith:80"
