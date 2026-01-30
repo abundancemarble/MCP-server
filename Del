@@ -1,0 +1,1 @@
+wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.14.2/deploy/static/provider/aws/nlb-with-tls-termination/deploy.yaml
