@@ -1,0 +1,2 @@
+kubectl create ingress fath --class=nginx \
+  --rule="www.faith.io/*=faith:80"
