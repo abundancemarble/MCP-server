@@ -1,0 +1,2 @@
+kubectl create deployment  --image=httpd --port=80
+kubectl expose deployment 
