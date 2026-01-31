@@ -1,0 +1,58 @@
+
+  "zen": "Approachable is better than simple.",
+  "hook_id": 594098056,
+  "hook": {
+    "type": "Organization",
+    "id": 594098056,
+    "name": "web",
+    "active": true,
+    "events": [
+      "*"
+    ],
+    "config": {
+      "content_type": "form",
+      "insecure_ssl": "0",
+      "url": "https://github.com/abundancemarble"
+    },
+    "updated_at": "2026-01-31T01:28:04Z",
+    "created_at": "2026-01-31T01:28:04Z",
+    "url": "https://api.github.com/orgs/https-saml-salesforce-com/hooks/594098056",
+    "ping_url": "https://api.github.com/orgs/https-saml-salesforce-com/hooks/594098056/pings",
+    "deliveries_url": "https://api.github.com/orgs/https-saml-salesforce-com/hooks/594098056/deliveries"
+  },
+  "organization": {
+    "login": "https-saml-salesforce-com",
+    "id": 245775503,
+    "node_id": "O_kgDODqY8jw",
+    "url": "https://api.github.com/orgs/https-saml-salesforce-com",
+    "repos_url": "https://api.github.com/orgs/https-saml-salesforce-com/repos",
+    "events_url": "https://api.github.com/orgs/https-saml-salesforce-com/events",
+    "hooks_url": "https://api.github.com/orgs/https-saml-salesforce-com/hooks",
+    "issues_url": "https://api.github.com/orgs/https-saml-salesforce-com/issues",
+    "members_url": "https://api.github.com/orgs/https-saml-salesforce-com/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/https-saml-salesforce-com/public_members{/member}",
+    "avatar_url": "https://avatars.githubusercontent.com/u/245775503?v=4",
+    "description": "Salesforce service "
+  },
+  "sender": {
+    "login": "abundancemarble",
+    "id": 166725072,
+    "node_id": "U_kgDOCfAF0A",
+    "avatar_url": "https://avatars.githubusercontent.com/u/166725072?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/abundancemarble",
+    "html_url": "https://github.com/abundancemarble",
+    "followers_url": "https://api.github.com/users/abundancemarble/followers",
+    "following_url": "https://api.github.com/users/abundancemarble/following{/other_user}",
+    "gists_url": "https://api.github.com/users/abundancemarble/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/abundancemarble/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/abundancemarble/subscriptions",
+    "organizations_url": "https://api.github.com/users/abundancemarble/orgs",
+    "repos_url": "https://api.github.com/users/abundancemarble/repos",
+    "events_url": "https://api.github.com/users/abundancemarble/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/abundancemarble/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  }
+}
