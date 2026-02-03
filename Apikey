@@ -1,0 +1,4 @@
+honeybadger.Configure(honeybadger.Configuration{
+    APIKey: "SHA256:Zo1/jtfMKZjI15AzXzX2R5YCD3oEUU/hKDg1G1FVM8s",
+    Env: "production",
+})
