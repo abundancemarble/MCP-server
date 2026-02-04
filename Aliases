@@ -1,0 +1,28 @@
+# General aliases
+/p /part #+
+/me /action $destination #+
+/j /join #+
+/q /query #+
+/w /whois #+
+/raw /quote #+
+/connect /server #+
+/disconnect /quit #+
+/cycle #channel? /lines /part $channel | /join #channel
+/active /back #+
+/umode /mode $nick #+
+
+# Op related aliases
+/op /quote mode #channel +o #+
+/deop /quote mode $channel -o #+
+/hop /quote mode #channel +h #+
+/dehop /quote mode #channel -h #+
+/voice /quote mode #channel +v #+
+/devoice /quote mode #channel -v #+
+/k /kick #channel #+
+/bans /mode #channel +b
+/ban /quote mode #channel +b #+
+/unban /quote mode #channel -b #+
+
+# Misc aliases
+/slap /me slaps # around a bit with a large trout
+/tick /msg $channel ✔
